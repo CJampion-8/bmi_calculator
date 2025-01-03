@@ -1,0 +1,79 @@
+.App {
+    display: flex;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+input {
+    padding: 10px;
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#root {
+    background-color: rgba(31, 31, 31, 0.75);
+    padding: 75px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    text-align: center;
+    border-radius: 25px;
+    width: 700px;
+}
+
+.Calculator {
+    /* background-color: rgba(179, 107, 107, 0.726); */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    flex: 1;
+}
+
+.Results {
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    margin-top: 10px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #448ed8;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+html {
+    background: linear-gradient(-45deg, #0b141d, #224261, #336aa0, #448ed8);
+    background-size: 400% 400%;
+    animation: gradient 8s ease infinite;
+    height: 100%;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
