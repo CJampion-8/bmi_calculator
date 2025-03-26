@@ -23,8 +23,8 @@ function App() {
 
                 <p>Input your height:</p>
 
-                <input type="number" placeholder="Feet (ft)" onChange={(e) => setHeightFeet(e.target.value)} /><br></br>
-                <input type="number" placeholder="Inches (in)" onChange={(e) => setHeightInches(e.target.value)} />
+                <input type="number" min="0" placeholder="Feet (ft)" onChange={(e) => setHeightFeet(e.target.value)} /><br></br>
+                <input type="number" max="11" placeholder="Inches (in)" onChange={(e) => setHeightInches(e.target.value)} />
 
                 <p>Input your weight:</p>
                 <input type="number" placeholder="Pounds (lbs)" onChange={(e) => setWeight(e.target.value)} /><br></br>
