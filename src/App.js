@@ -17,6 +17,7 @@ function App() {
     };
 
     return (
+        <>
         <div className="App">
             <div className="Calculator">
                 <h1>BMI Calculator</h1>
@@ -40,6 +41,12 @@ function App() {
                 <p>Obese (BMI ≥ 30): Significantly above the healthy range, increasing the likelihood of serious health problems.</p>
             </div>
         </div>
+
+        <a href="" target="_blank" rel="noopener noreferrer" className="portfolioRedirect">
+            Check out my other projects!
+        </a>
+        
+        </>
     );
 }
 
