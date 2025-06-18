@@ -29,11 +29,18 @@ const fetchBmiFromApi = async (weight, height) => {
 
     });
         const response = await fetch(url, options);
+        
+        if (!response.ok) {
+            console.error(`HTTP error! status: ${response.status}`);
+            return null;
+        }
+        
         const responseData = await response.json();
-        console.log(responseData);
+        console.log('API Response Data:', responseData);
         return responseData;
     } catch (error) {
         console.error("Error fetching BMI Data: ", error);
+        return null;
     }
 };
 
