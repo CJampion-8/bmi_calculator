@@ -42,7 +42,7 @@ function App() {
             </div>
         </div>
 
-        <a href="" target="_blank" rel="noopener noreferrer" className="portfolioRedirect">
+        <a href="https://cjampion-8.github.io/project_portfolio" target="_blank" rel="noopener noreferrer" className="portfolioRedirect">
             Check out my other projects!
         </a>
         
