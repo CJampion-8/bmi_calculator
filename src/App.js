@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import useBmiCalculation from './Hooks/BMICalculation';
+import useBmiCalculation from './components/BMICalculation';
 import './style.css';
 // import organizedData from './OrganizeOutput';
 
